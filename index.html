@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">   
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="images/identidade-visual-2024.png" alt="Ícone">
+    <title>Encriptador de mensagem</title>
+</head>
+
+<body>
+
+    <header>
+<div class="intro">
+    <a href="https://github.com/CherLuza" target="_blank" rel="noopener noreferrer">
+        <img class= "logo" src="images/identidade-visual-2024.png" alt="Identidade Visual Cher Oliboni Luza"> 
+    </a>
+
+    <h1>Encriptador e Desencriptador de texto</h1>
+</div>
+    </header>
+
+<main>
+
+   <section class="encrypt">
+    
+            <textarea class="text-area" cols="41" rows="4" placeholder="Digite aqui o texto que você deseja criptografar ou descriptografar"></textarea>
+    
+    <div class="text-warning">
+        <h2>Atenção! Apenas letras minúsculas e sem acento.</h2>
+    </div>
+
+    <div class="buttons">
+
+        <button class="button-encrypter" onclick="btnEncriptar()">
+            Criptografar
+        </button>
+
+        <button class="button-decrypter" onclick="btnDesencriptar()">
+            Descriptografar
+        </button>
+
+    </div>
+   </section>
+   
+   <section class="decrypt">
+
+<div class="decrypt-container">
+    <textarea class="text-area-decrypt" cols="20" rows="10" placeholder="Aqui aparecerá o seu texto criptografado ou descriptografado.">
+        Aqui aparecerá o seu texto criptografado ou descriptografado.
+</textarea>           
+    <button class="button-copy-text">
+        Copiar
+    </button>
+    <button class="button-clean-text" onclick="limparCampo()">
+        Limpar
+    </button>
+</div>
+
+   </section>
+
+</main>
+<footer>
+    <section class="presentation">
+        <h3>Copyright ©️ 2024 - Cher Oliboni Luza</h3>
+            <a href="https://github.com/CherLuza" target="_blank" rel="noopener noreferrer" class="icon">
+        <img class= "logo-github" src="images/github-logo.png" alt="Ícone do Github"> 
+    </a>
+    <a href="mailto: cherluza@gmail.com" class="icon">
+        <img class="logo-email" src="images/email-logo.png" alt="Ícone de email">
+      </a>
+    </section>
+</footer>
+
+
+<script src="https://code.responsivevoice.org/responsivevoice.js"></script>
+<script src="script.js"></script>
+</body>
+
+</html>
