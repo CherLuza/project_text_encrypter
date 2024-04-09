@@ -54,13 +54,15 @@
 
 :heavy_check_mark: Funcionalidade 5 - Botões de Copiar e Limpar conteúdo: Abaixo à direita da página é fornecido o botão de Copiar o conteúdo da àrea de resposta e o botão de Limpar todo o conteúdo digitado e a resposta criptografada/descriptografada.
 
-:heavy_check_mark: Funcionalidade 6 - Voz de leitura de conteúdo para fins de Acessibilidade: Ao iniciar o acesso à Página Web o usuário é solicitado a permitir a habilitação de som, solicitação esta que pode ser aceita ou negada pelo usuário. A voz está configurada como voz feminina de idioma Português Brasileiro. A voz realiza a leitura quando o mouse é passado por cima do conteúdo, estando configurado para ler o título da página Web, o aviso de condições de escrita, os botões com as funções de Criptografar, Descriptografar, Copiar e Limpar e a mensagem contida no Rodapé da Página.
+:heavy_check_mark: Funcionalidade 6 - Cursor customizado: A Página web possui cursor customizado.
 
-:heavy_check_mark: Funcionalidade 7 - Responsividade: A página está configurada para funcionar de modo responsivo à diferentes tamanhos de tela, estando configurada para telas de computador, Tablets e celulares.
+:heavy_check_mark: Funcionalidade 7 - Voz de leitura de conteúdo para fins de Acessibilidade: A biblioteca utilizada para este fim é a Responsive Voice. Ao iniciar o acesso à Página Web o usuário é solicitado a permitir a habilitação de som, solicitação esta que pode ser aceita ou negada pelo usuário. A voz está configurada como voz feminina de idioma Português Brasileiro. A voz realiza a leitura quando o mouse é passado por cima do conteúdo, estando configurado para ler o título da página Web, o aviso de condições de escrita, os botões com as funções de Criptografar, Descriptografar, Copiar e Limpar e a mensagem contida no Rodapé da Página.
+
+:heavy_check_mark: Funcionalidade 8 - Responsividade: A página está configurada para funcionar de modo responsivo à diferentes tamanhos de tela, estando configurada para telas de computador, Tablets e celulares.
 
 ## Layout da Aplicação :dash:
 
-
+https://github.com/CherLuza/project_text_encrypter/assets/139655842/c9f88752-9725-4e1a-81fb-ff3572e35940
 
 ## Pré-requisitos
 
@@ -94,10 +96,11 @@ Não foi utilizado banco de dados neste repositório.
 
 - [JavaScript]
 - [CSS3]
+- [ResponsiveVoice](https://responsivevoice.org/)
 
 ## Tarefas em aberto
 
-Não consta tarefas em aberto.
+:memo: Tarefa 1 - Correção da área de Mensagem de aviso de condições de texto e do Rodapé, a fim de delimitar a ativação do Responsive Voice.
 
 ## Acesso ao projeto
 Você pode acessar os arquivos do projeto neste projeto atual.
