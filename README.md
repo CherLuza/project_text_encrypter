@@ -64,6 +64,8 @@
 
 ## Layout da Aplicação :dash:
 
+![text_encrypter](https://github.com/user-attachments/assets/5df627c9-1041-43a2-8a48-64207378e423)
+
 https://github.com/CherLuza/project_text_encrypter/assets/139655842/c9f88752-9725-4e1a-81fb-ff3572e35940
 
 ## Pré-requisitos
